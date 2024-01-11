@@ -12,14 +12,17 @@
     <title>Clínica de estética e beleza</title>
 </head>
 <body class="main-body">
+  <!-- nav-bar -->
   <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
     <div class="container">
-
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <a class="navbar-brand" href="index.html"><img src="\imagem\logo.jpeg" alt="Logo" style="width:40px;"
           class="rounded-pill"> Clínica Santo Berço</a>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav ">
-          <li class="nav-item ">
+        <ul class="navbar-nav">
+          <li class="nav-item">
             <a class="nav-link text-uppercase" href="#sobre">Quem somos</a>
           </li>
           <li class="nav-item">
@@ -28,22 +31,22 @@
           <li class="nav-item">
             <a class="nav-link text-uppercase" href="#contato">Contato</a>
           </li>
-          <li class="nav-item dropdown text-uppercase ">
+          <li class="nav-item dropdown text-uppercase">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Especialidades</a>
             <ul class="dropdown-menu bg-dark navbar-dark">
-              <li><a class="dropdown-item text-light" href="estetica-intima.html">Estética Íntima</a></li>
-              <li><a class="dropdown-item text-light" href="cirurgia-plastica.html">Cirurgia Plástica</a></li>
-              <li><a class="dropdown-item text-light" href="nutricao.html">Nutrição</a></li>
-              <li><a class="dropdown-item text-light" href="medicina-estetica.html">Medicina e Estética</a></li>
+              <li><a class="dropdown-item text-secondary" href="estetica-intima.html">Estética Íntima</a></li>
+              <li><a class="dropdown-item text-secondary" href="cirurgia-plastica.html">Cirurgia Plástica</a></li>
+              <li><a class="dropdown-item text-secondary" href="nutricao.html">Nutrição</a></li>
+              <li><a class="dropdown-item text-secondary" href="medicina-estetica.html">Medicina e Estética</a></li>
             </ul>
           </li>
 
           <li class="nav-item dropdown text-uppercase">
             <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown">spa</a>
             <ul class="dropdown-menu bg-dark navbar-dark">
-              <li><a class="dropdown-item text-light" href="massagens.html">massagens</a></li>
-              <li><a class="dropdown-item text-light" href="day-spa.html">day spa</a></li>
-              <li><a class="dropdown-item text-light" href="ofuro.html">ofurô</a></li>
+              <li><a class="dropdown-item text-secondary" href="massagens.html">massagens</a></li>
+              <li><a class="dropdown-item text-secondary" href="day-spa.html">day spa</a></li>
+              <li><a class="dropdown-item text-secondary" href="ofuro.html">ofurô</a></li>
             </ul>
           </li>
         </ul>
@@ -54,8 +57,7 @@
     </div>
   </nav>
 
-
-  <!-- Banner Section -->
+<!-- Banner Section -->
   <section id="banner">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -106,7 +108,6 @@
   <!-- End Banner Section -->
 
 
-  <!-- Modal Form -->
   <div class="modal fade" id="ModalForm" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
@@ -129,17 +130,18 @@
             <div class="mb-3">
               <input class="form-check-input" type="checkbox" value="" id="remember" required>
               <label class="form-check-label" for="remember">Lembrar identificação de usuário</label>
-              <a href="#" class="float-end">Esqueceu a senha?</a>
+              <a href="#" class="float-end texto-link">Esqueceu a senha?</a>
             </div>
           </div>
           <div class="modal-footer pt-4">
-            <button type="button" class="btn btn-success mx-auto w-100">Login</button>
+            <button type="button" class="btn  mx-auto w-100 ">Login</button>
           </div>
-          <p class="text-center">não tem conta? <a href="#">Criar conta</a></p>
+          <p class="text-center texto-link">não tem conta? <a href="#" class="text-center texto-link">Criar conta</a></p>
         </form>
       </div>
     </div>
   </div>
+<!-- procedimentos -->
 <div class= " container text-uppercase">
     <h1 class="texto-h1 text-uppercase">Estética intima</h1>
     <h2 class="texto-h2">Procedimentos</h2>
@@ -240,7 +242,7 @@
     </div>
     </div>
   </div>
-
+<!-- destaques -->
   <div id="destaques" class="container shadow mt-5 border texto-h2">
     <div class="row">
         <div class="col-12">
@@ -278,7 +280,7 @@
         </div>
     </div>
   </div>
-
+<!-- contato -->
     <div id="contato" class="container justify-content-start mt-5">
       <div class="row">
         <div class="col-12 col-sm-12 col-md-6">
@@ -331,7 +333,7 @@
           </div>
         </div>
       </div>
-  <!-- Footer -->
+ <!-- Footer -->
   <footer class="bg-light pt-5 mt-5">
     <div class="container">
         <div class="row">
@@ -339,7 +341,7 @@
                 <div class="widget-title">
                     <h3 class="mb-4 fs-5 text-uppercase texto-h2">Clínica Santo Berço</h3>
                 </div>
-                <h4 class="texto-h1">+91-85580-30604</h4>
+                <h4 class="texto-h1">+99-99999-9999</h4>
                 <p class="texto-h1 m-0 mt-3">Seg. - Sex. <b>10:00 - 7:00</b></p>
                 <p class="texto-h1">Sab. - Dom. <b>Off</b></p>
             </div>
@@ -348,10 +350,10 @@
                   <h3 class="mb-4 fs-5 texto-h2 text-uppercase">Redes Sociais</h3>
                 </div>
                 <ul>
-                  <li><a href="#">Facebook </a><i class="bi bi-facebook"></i></li>
-                  <li><a href="#">instagram </a><i class="bi bi-instagram"></i></li>
-                  <li><a href="#">Twitter </a><i class="bi bi-twitter"></i></li>
-                  <li><a href="#">You Tube </a><i class="bi bi-youtube"></i></li>
+                  <li><a href="#" class="texto-link">Facebook </a><i class="bi bi-facebook"></i></li>
+                  <li><a href="#" class="texto-link">instagram </a><i class="bi bi-instagram"></i></li>
+                  <li><a href="#" class="texto-link">Twitter </a><i class="bi bi-twitter"></i></li>
+                  <li><a href="#" class="texto-link">You Tube </a><i class="bi bi-youtube"></i></li>
                 </ul>
             </div>
             <div class="col-sm-6 col-md-3">
@@ -359,10 +361,10 @@
                   <h3 class="mb-4 fs-5 texto-h2 text-uppercase">Serviços</h3>
                 </div>
                 <ul>
-                  <li><a href="estetica-intima.html">Estética intima</a></li>
-                  <li><a href="cirurgia-plastica.html">Cirurgia Plástica</a></li>
-                  <li><a href="nutricao.html">Nutrição</a></li>
-                  <li><a href="medicina-estetica.html">Medicina e Estética</a></li>
+                  <li><a href="estetica-intima.html" class="texto-link">Estética intima</a></li>
+                  <li><a href="cirurgia-plastica.html" class="texto-link">Cirurgia Plástica</a></li>
+                  <li><a href="nutricao.html" class="texto-link">Nutrição</a></li>
+                  <li><a href="medicina-estetica.html" class="texto-link">Medicina e Estética</a></li>
                 </ul>
             </div>
             <div class="col-sm-6 col-md-3">
@@ -378,7 +380,7 @@
                         </div>
                     </div>
                     <div class="col-12">
-                        <button type="submit" class="btn btn-success w-100">Enviar</button>
+                        <button type="submit" class="btn w-100">Enviar</button>
                     </div>
                 </form>
             </div>

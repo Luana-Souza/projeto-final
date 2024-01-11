@@ -4,6 +4,8 @@
 html{
     overflow-y: scroll;
     scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
  }
  :target{
     scroll-margin-top: 120px;
@@ -12,7 +14,8 @@ html{
  body{
      font-family:"Poppins";
      font-size: 1.1rem;
-    
+     height: 100%;
+     margin: 0;
  }
  .p-sobre{
     letter-spacing: 0.2rem;
@@ -40,6 +43,9 @@ color:#89023e;
 }
 .texto-h2{
     color:#ea638c;
+}
+.texto-link{
+    color:#cc749b;
 }
 .texto-paragrafo{
 color: rgba(0,0,0,0.6);
@@ -85,9 +91,11 @@ ol.carousel-indicators {
     border-radius: 10px;
     transition: 1s;
 }
-
-
-
+footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 .card-box h3 a {
     font-size: 20px;
     text-decoration: none;
