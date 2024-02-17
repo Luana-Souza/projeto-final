@@ -3,4 +3,4 @@
 # projeto a ser revisado 29/12/23
 # projeto finalizado em 10/01/2024
  Este projeto foi feito para a disciplina de WEB I
-<a href = "https://luana-souza.github.io/projeto-final/">clique aqui para abrir
+<a href = "https://luana-souza.github.io/projeto-final/clinica-estetica">clique aqui para abrir
